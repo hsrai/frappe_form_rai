@@ -1,28 +1,61 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:DP-{YY}-{MM}-####",
  "creation": "2023-09-03 14:57:21.977154",
  "default_view": "List",
+ "description": "Report your daily progress for the subject Pre-Thesis",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "full_name"
+  "full_name",
+  "user_name",
+  "date",
+  "work_done",
+  "remarks"
  ],
  "fields": [
   {
    "fieldname": "full_name",
    "fieldtype": "Link",
    "label": "Full Name",
-   "options": "User"
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "User Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "work_done",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Work Done",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text Editor",
+   "label": "Remarks"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-03 14:57:21.977154",
+ "modified": "2023-09-03 15:10:07.928245",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Pre Thesis",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
