@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_form_rai *.css
+recursive-include frappe_form_rai *.csv
+recursive-include frappe_form_rai *.html
+recursive-include frappe_form_rai *.ico
+recursive-include frappe_form_rai *.js
+recursive-include frappe_form_rai *.json
+recursive-include frappe_form_rai *.md
+recursive-include frappe_form_rai *.png
+recursive-include frappe_form_rai *.py
+recursive-include frappe_form_rai *.svg
+recursive-include frappe_form_rai *.txt
+recursive-exclude frappe_form_rai *.pyc
