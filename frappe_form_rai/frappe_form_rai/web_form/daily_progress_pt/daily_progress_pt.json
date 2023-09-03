@@ -1,15 +1,15 @@
 {
  "accept_payment": 0,
- "allow_comments": 0,
+ "allow_comments": 1,
  "allow_delete": 0,
  "allow_edit": 0,
  "allow_incomplete": 0,
- "allow_multiple": 0,
+ "allow_multiple": 1,
  "allow_print": 0,
  "amount": 0.0,
  "amount_based_on_field": 0,
  "apply_document_permissions": 0,
- "button_label": "Save",
+ "button_label": "Submit (No changes will be possible after submitting)",
  "creation": "2023-09-03 15:17:30.505669",
  "currency": "INR",
  "doc_type": "Pre Thesis",
@@ -18,10 +18,27 @@
  "idx": 0,
  "introduction_text": "<div class=\"ql-editor read-mode\"><p>Write your daily efforts for the pre-thesis.</p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Search conducted</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Paper read</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Antthing else</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Summary</li></ol><p>etc.</p></div>",
  "is_standard": 1,
- "list_columns": [],
- "login_required": 0,
+ "list_columns": [
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "User Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "work_done",
+   "fieldtype": "Text Editor",
+   "label": "Work Done"
+  }
+ ],
+ "list_title": "Pre Thesis Work  done",
+ "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-03 15:17:30.505669",
+ "modified": "2023-09-03 15:25:37.269526",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "daily-progress-pt",
@@ -30,8 +47,11 @@
  "published": 1,
  "route": "daily-progress-pt",
  "show_attachments": 0,
- "show_list": 0,
+ "show_list": 1,
  "show_sidebar": 0,
+ "success_message": "Daily work of Pre-Thesis submitted.",
+ "success_title": "Daily Work",
+ "success_url": "https://erp.gndec.ac.in/",
  "title": "Daily Progress PT",
  "web_form_fields": [
   {
