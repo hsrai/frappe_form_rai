@@ -38,7 +38,7 @@
  "list_title": "Pre Thesis Work  done",
  "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-03 15:25:37.269526",
+ "modified": "2023-09-03 15:34:13.444035",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "daily-progress-pt",
@@ -51,7 +51,7 @@
  "show_sidebar": 0,
  "success_message": "Daily work of Pre-Thesis submitted.",
  "success_title": "Daily Work",
- "success_url": "https://erp.gndec.ac.in/",
+ "success_url": "https://exp.gndec.ac.in/daily-progress-pt/list",
  "title": "Daily Progress PT",
  "web_form_fields": [
   {
