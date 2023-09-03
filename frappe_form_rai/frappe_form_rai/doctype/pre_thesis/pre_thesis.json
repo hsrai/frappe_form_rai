@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:DP-{YY}-{MM}-####",
+ "autoname": "format:DP-{YY}-{MM}-{####}",
  "creation": "2023-09-03 14:57:21.977154",
  "default_view": "List",
  "description": "Report your daily progress for the subject Pre-Thesis",
@@ -51,7 +51,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-03 15:10:07.928245",
+ "modified": "2023-09-03 15:31:51.013175",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Pre Thesis",
