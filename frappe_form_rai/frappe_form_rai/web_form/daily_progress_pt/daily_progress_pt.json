@@ -38,7 +38,7 @@
  "list_title": "Pre Thesis Work  done",
  "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-03 15:34:13.444035",
+ "modified": "2023-09-03 16:09:33.529591",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "daily-progress-pt",
@@ -63,7 +63,7 @@
    "max_length": 0,
    "max_value": 0,
    "options": "User",
-   "read_only": 1,
+   "read_only": 0,
    "reqd": 0,
    "show_in_filter": 0
   },
@@ -75,7 +75,7 @@
    "label": "User Name",
    "max_length": 0,
    "max_value": 0,
-   "read_only": 1,
+   "read_only": 0,
    "reqd": 0,
    "show_in_filter": 0
   },
@@ -88,7 +88,7 @@
    "max_length": 0,
    "max_value": 0,
    "read_only": 0,
-   "reqd": 1,
+   "reqd": 0,
    "show_in_filter": 0
   },
   {
