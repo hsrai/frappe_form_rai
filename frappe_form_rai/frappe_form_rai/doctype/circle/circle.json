@@ -36,7 +36,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-09 11:08:31.431292",
+ "modified": "2023-09-09 12:06:41.177434",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Circle",
@@ -56,9 +56,11 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "diameter",
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1
