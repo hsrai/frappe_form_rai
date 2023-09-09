@@ -19,24 +19,27 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Diameter",
+   "permlevel": 1,
    "reqd": 1
   },
   {
    "fieldname": "area",
    "fieldtype": "Float",
    "label": "Area",
+   "permlevel": 1,
    "read_only": 1
   },
   {
    "fieldname": "perimeter",
    "fieldtype": "Float",
    "label": "Perimeter",
+   "permlevel": 1,
    "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-09 13:39:34.753674",
+ "modified": "2023-09-09 13:55:05.212912",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Circle",
