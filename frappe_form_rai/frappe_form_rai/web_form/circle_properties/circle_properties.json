@@ -33,7 +33,7 @@
  "list_title": "Properties of Circle",
  "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-09 11:50:55.072285",
+ "modified": "2023-09-09 11:54:34.566964",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "circle-properties",
@@ -44,6 +44,9 @@
  "show_attachments": 0,
  "show_list": 1,
  "show_sidebar": 0,
+ "success_message": "Wait for listing.",
+ "success_title": "Your \"Circle\" inut is received and processed.",
+ "success_url": "https://exp.gndec.ac.in/circle-properties/list",
  "title": "Circle Properties",
  "web_form_fields": [
   {
