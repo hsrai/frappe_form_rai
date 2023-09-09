@@ -16,7 +16,7 @@
  "docstatus": 0,
  "doctype": "Web Form",
  "idx": 0,
- "introduction_text": "<div class=\"ql-editor read-mode\"><p>Give diaemeter of a circle to know area and petermeter of the same.</p></div>",
+ "introduction_text": "<div class=\"ql-editor read-mode\"><p>Give diameter of a circle to know area and petermeter of the same.</p></div>",
  "is_standard": 1,
  "list_columns": [
   {
@@ -33,7 +33,7 @@
  "list_title": "Properties of Circle",
  "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-09 11:54:34.566964",
+ "modified": "2023-09-09 13:29:44.971185",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "circle-properties",
@@ -52,14 +52,14 @@
   {
    "allow_read_on_all_link_options": 0,
    "fieldname": "diameter",
-   "fieldtype": "Float",
+   "fieldtype": "Data",
    "hidden": 0,
    "label": "Diameter",
    "max_length": 0,
    "max_value": 0,
    "read_only": 0,
    "reqd": 1,
-   "show_in_filter": 0
+   "show_in_filter": 1
   },
   {
    "allow_read_on_all_link_options": 0,

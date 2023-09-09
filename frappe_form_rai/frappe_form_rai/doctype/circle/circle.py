@@ -8,5 +8,6 @@ import math as math
 class Circle(Document):
     #this method will run every time a document is saved
     def before_save(self):
-    	self.area = round(math.pi * self.diameter ** 2 / 4., 3)
-    	self.perimeter = round(math.pi * self.diameter, 3)
+    	dia = float(self.diameter)
+    	self.area = round(math.pi * dia ** 2 / 4., 3)
+    	self.perimeter = round(math.pi * dia, 3)
