@@ -1,10 +1,10 @@
 {
  "accept_payment": 0,
- "allow_comments": 0,
- "allow_delete": 0,
- "allow_edit": 0,
- "allow_incomplete": 0,
- "allow_multiple": 0,
+ "allow_comments": 1,
+ "allow_delete": 1,
+ "allow_edit": 1,
+ "allow_incomplete": 1,
+ "allow_multiple": 1,
  "allow_print": 0,
  "amount": 0.0,
  "amount_based_on_field": 0,
@@ -18,10 +18,22 @@
  "idx": 0,
  "introduction_text": "<div class=\"ql-editor read-mode\"><p>Give diaemeter of a circle to know area and petermeter of the same.</p></div>",
  "is_standard": 1,
- "list_columns": [],
- "login_required": 0,
+ "list_columns": [
+  {
+   "fieldname": "diameter",
+   "fieldtype": "Float",
+   "label": "Diameter"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Float",
+   "label": "Area"
+  }
+ ],
+ "list_title": "Properties of Circle",
+ "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-09-09 11:48:25.213104",
+ "modified": "2023-09-09 11:50:55.072285",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "circle-properties",
@@ -30,7 +42,7 @@
  "published": 1,
  "route": "circle-properties",
  "show_attachments": 0,
- "show_list": 0,
+ "show_list": 1,
  "show_sidebar": 0,
  "title": "Circle Properties",
  "web_form_fields": [
