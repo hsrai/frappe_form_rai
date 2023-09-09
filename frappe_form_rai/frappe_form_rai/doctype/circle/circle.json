@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-09-09 08:41:03.773460",
+ "default_view": "List",
+ "description": "Area and perimeter of Circel with given diameter.",
+ "doctype": "DocType",
+ "documentation": "https://en.wikipedia.org/wiki/Area#Circles",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "diameter",
+  "area",
+  "perimeter"
+ ],
+ "fields": [
+  {
+   "fieldname": "diameter",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Diameter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Float",
+   "label": "Area",
+   "read_only": 1
+  },
+  {
+   "fieldname": "perimeter",
+   "fieldtype": "Float",
+   "label": "Perimeter",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-09 09:46:37.175658",
+ "modified_by": "Administrator",
+ "module": "Frappe Form Rai",
+ "name": "Circle",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
