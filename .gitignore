@@ -1,7 +1,9 @@
 .DS_Store
+**/*~
+**/DEADJOE
 *.pyc
 *.egg-info
 *.swp
 tags
-frappe_form_rai/docs/current
+.gitignorefrappe_form_rai/docs/current
 node_modules/

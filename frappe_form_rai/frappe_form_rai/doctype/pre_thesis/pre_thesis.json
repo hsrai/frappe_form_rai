@@ -18,9 +18,8 @@
  "fields": [
   {
    "fieldname": "full_name",
-   "fieldtype": "Link",
-   "label": "Full Name",
-   "options": "User"
+   "fieldtype": "Data",
+   "label": "Full Name"
   },
   {
    "fieldname": "user_name",
@@ -49,7 +48,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-03 15:36:08.163852",
+ "modified": "2023-09-03 16:35:39.004574",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Pre Thesis",
