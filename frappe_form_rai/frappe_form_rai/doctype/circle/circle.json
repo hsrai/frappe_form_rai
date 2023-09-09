@@ -16,7 +16,7 @@
  "fields": [
   {
    "fieldname": "diameter",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Diameter",
    "reqd": 1
@@ -36,7 +36,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-09 09:46:37.175658",
+ "modified": "2023-09-09 11:08:31.431292",
  "modified_by": "Administrator",
  "module": "Frappe Form Rai",
  "name": "Circle",
